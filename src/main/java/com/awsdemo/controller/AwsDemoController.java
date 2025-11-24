@@ -49,6 +49,15 @@ public class AwsDemoController {
 		
 		return data;		
 	}
+
+@GetMapping("/checkpoint")
+
+public String checkPoint(){
+	
+	String data = "Employee data";
+	
+	return data;		
+}
 	
 	
 	
